@@ -913,8 +913,8 @@ class TransfoXLPreTrainedModel(PreTrainedModel):
 TRANSFO_XL_START_DOCSTRING = r"""    The Transformer-XL model was proposed in
     `Transformer-XL: Attentive Language Models Beyond a Fixed-Length Context`_
     by Zihang Dai*, Zhilin Yang*, Yiming Yang, Jaime Carbonell, Quoc V. Le, Ruslan Salakhutdinov.
-    It's a causal (uni-directional) transformer with relative positioning (sinusoïdal) embeddings which can reuse
-    previously computed hidden-states to attend to longer context (memory).
+    It's a causal (uni-directional) transformer with relative positioning (sinusoïdal) embeddings 
+    which can reuse previously computed hidden-states to attend to longer context (memory).
     This model also uses adaptive softmax inputs and outputs (tied).
 
     This model is a PyTorch `torch.nn.Module`_ sub-class. Use it as a regular PyTorch Module and

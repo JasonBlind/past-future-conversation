@@ -225,7 +225,7 @@ def main():
                         help="Pretrained config name or path if not the same as model_name")
     parser.add_argument("--tokenizer_name", default="", type=str,
                         help="Pretrained tokenizer name or path if not the same as model_name")
-    parser.add_argument("--cache_dir", default="", type=str,
+    parser.add_argument("--cache_dir", default="pretrained", type=str,
                         help="Where do you want to store the pre-trained models downloaded from s3")
     parser.add_argument("--data_subset", type=int, default=-1,
                         help="If > 0: limit the data to a subset of data_subset instances.")
