@@ -4,4 +4,5 @@ data/
 dataset_cache*
 runs/
 ParlAI/
+train_checkpoints/
 __pycache__
