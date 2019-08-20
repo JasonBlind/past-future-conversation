@@ -3,8 +3,8 @@ import torch
 from matplotlib import pyplot as pp
 import numpy as np
 
-tokenizer = TransfoXLTokenizer.from_pretrained('transfo-xl-wt103');
-model = TransfoXLLMHeadModel.from_pretrained('transfo-xl-wt103')
+tokenizer = GPT2Tokenizer.from_pretrained('gpt2');
+model = GPT2DoubleHeadsModel.from_pretrained('gpt2')
 
 # Tokenize input
 text = "I am beginning to think this model is strange and [MASK]"
